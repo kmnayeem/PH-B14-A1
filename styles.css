@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "open sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.common-btn:hover{
+    background-color: #1E40AF;
+}
+
+.logo img{
+    height: 55px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+
