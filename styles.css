@@ -83,17 +83,21 @@ header{
     text-align: center;
     display: grid;
     gap: 30px;
+}
 
+.header-content h1{
+    font-size: 65px;
+}
+
+.header-content p{
+    font-size: 18px;
+    margin-bottom: 300px;
 }
 
 .header-content button{
     width: 15%;
     margin-left: 40%;
     padding: 10px 0 !important;
-}
-
-.header-content h1{
-    font-size: 50px;
 }
 
 .header-content h1 span{
