@@ -4,14 +4,10 @@
     font-family: "open sans", sans-serif;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+/* .container{
     max-width: 1200px;
     margin:auto;
-    padding: 20px 0;
-    align-items: center;
-}
+} */
 
 .common-btn{
     background-color: #1D4ED8;
@@ -23,20 +19,83 @@ nav{
     border: none;
     cursor: pointer;
 }
+
+.outline-btn{
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color:  #1D4ED8;
+    border:1px solid #FFFFFF;
+    cursor: pointer;
+}
+
 .common-btn:hover{
     background-color: #1E40AF;
+}
+
+/*nav*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #575757;
+    cursor: pointer;
 }
 
 .logo img{
     height: 55px;
 }
 
-ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 10px;
+img{
+    max-width: 100%;
+}
+
+/* Hero */
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/banner.jpg');
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
     align-items: center;
 }
 
+.header-content{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 30px;
 
+}
+
+.header-content button{
+    width: 15%;
+    margin-left: 40%;
+    padding: 10px 0 !important;
+}
+
+.header-content h1{
+    font-size: 50px;
+}
+
+.header-content h1 span{
+    font-style: italic;
+}
