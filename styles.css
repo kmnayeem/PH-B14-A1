@@ -8,11 +8,6 @@ section {
     padding: 80px 8%;
 }
 
-/* .container{
-    max-width: 1200px;
-    margin:auto;
-} */
-
 .common-btn {
     background-color: #1D4ED8;
     padding: 10px 20px;
@@ -451,14 +446,14 @@ main article h3 {
 
 .left-section {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 16px;
 }
 
-.footer-logo {
-    width: 36px;
-    height: 36px;
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    display: block;
 }
 
 .left-section p, .right-section p {
@@ -469,5 +464,12 @@ main article h3 {
 
 .right-section {
     display: flex;
+    align-items: center;
     gap: 20px;
+}
+
+.right-section img {
+    width: 28px;
+    height: auto;
+    display: block;
 }
