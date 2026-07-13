@@ -1,6 +1,6 @@
-At first, I attached the .fig file along with my complete HTML and CSS code. I am creating a website. Then I told:
+At first, I attached the .fig file along with my complete HTML and CSS code. Then I told: 
 
-I need you to build one section of the website(For the "Something Missing?" section). Create a section containing three div elements. Then use CSS Grid to divide the section into two parts. The website is mainly for conference registration, where four speakers will be participating.
+I am creating a website. I need you to build one section of the website(For the "Something Missing?" section). Create a section containing three div elements. Then use CSS Grid to divide the section into two parts. The website is mainly for conference registration, where four speakers will be participating.
 
 Here's what you need to do:
 One side should contain FAQ-style questions (such as who can attend the conference, up to what age registration is free, etc).
