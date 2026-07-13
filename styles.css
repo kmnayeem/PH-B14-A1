@@ -238,7 +238,7 @@ main article h3 {
 }
 
 .card-pro .price-text{
-    color: #888888;
+    color: #FFFFFF80;
 }
 
 .card2 hr, .card-pro hr{
@@ -272,7 +272,7 @@ main article h3 {
 }
 
 .card-pro li{
-    color: #FFFFFF;
+    color: #FFFFFFCC;
 }
 
 .card2 button, .card-pro button{
@@ -434,4 +434,40 @@ main article h3 {
     margin-top:8px;
     font-size:15px;
     color:#575757;
+}
+
+/* footer part */
+
+.footer-part {
+    background-color: #0D1B2A;
+    padding: 50px 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-logo {
+    width: 36px;
+    height: 36px;
+}
+
+.left-section p, .right-section p {
+    color: #6F7985;
+    font-size: 16px;
+    margin: 0;
+}
+
+.right-section {
+    display: flex;
+    gap: 20px;
 }
