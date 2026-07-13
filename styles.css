@@ -25,18 +25,25 @@ section {
 }
 
 .outline-btn {
+    width: 100%;
+    background-color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 12px;
     font-weight: bold;
     font-size: 22px;
-    color: #1D4ED8;
-    border: 1px solid #FFFFFF;
+    color: #2563EB;
+    border: 1px solid #2563EB;
     cursor: pointer;
 }
 
 .common-btn:hover {
     background-color: #1E40AF;
 }
+
+.outline-btn:hover{
+    background-color: #ebebf0;
+}
+
 
 /*nav*/
 
@@ -116,6 +123,7 @@ header {
 
 main {
     padding-top: 45px;
+    background-color:#ffffff;
 }
 
 .meet {
@@ -130,6 +138,7 @@ main {
 }
 
 main h1 {
+    color: #000102;
     font-weight: bold;
     font-size: 45px;
     text-align: center;
@@ -141,6 +150,7 @@ main h1 {
     border: 1px solid #e5e7eb;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .meet article:hover {
@@ -158,6 +168,7 @@ main h1 {
 }
 
 main article h3 {
+    color: #0D1B2A;
     font-size: 18px;
     font-weight: bold;
     margin: 0 0 8px;
@@ -167,4 +178,121 @@ main article h3 {
     color: #575757;
     font-size: 13px;
     margin: 0 0 24px;
+}
+
+/* card section */
+
+.secure{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.secure h2{
+    font-size: 56px;
+    font: bold;
+    color: #0D1B2A;
+    margin: 0;
+}
+
+.secure p{
+    font-size: 18px;
+    color: #575757;
+    margin-top: 15px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.card2, .card-pro{
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.card-pro{
+    background: #0D1B2A;
+    color: #FFFFFF;
+    border: none;
+}
+
+.card2 h3, .card-pro h3{
+    font-size: 48px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.price-text{
+    color: #888888;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card-pro .price-text{
+    color: #888888;
+}
+
+.card2 hr, .card-pro hr{
+    border: none;
+    border-top: 1px solid #888888;
+    margin: 20px 0;
+}
+
+.card2 ul, .card-pro ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.card2:hover{
+    background-color: #f3f4f6;
+}
+
+.card-pro:hover{
+    background-color: #11263e;
+}
+
+
+.card2 li, .card-pro li{
+    display: block;
+    margin-bottom: 14px;
+}
+
+.card2 li{
+    color: #333333;
+}
+
+.card-pro li{
+    color: #FFFFFF;
+}
+
+.card2 button, .card-pro button{
+    margin-top: auto;
+}
+
+.plan{
+    color: #888888;
+    font-weight: 600;
+}
+
+.plan2{
+    color: #93C5FD;
+    font-weight: 600;
+}
+
+.dot{
+    color: #2563EB;
+    font: bold;
+    font-size: 22px;
+    margin-right: 10px;
 }
